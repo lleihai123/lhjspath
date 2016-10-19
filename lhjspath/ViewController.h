@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  lhjspath
+//  JsPatchDemo
 //
-//  Created by lh on 2016/10/19.
-//  Copyright © 2016年 lh. All rights reserved.
+//  Created by meiqing on 15/12/12.
+//  Copyright © 2015年 meiqing. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
