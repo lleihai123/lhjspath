@@ -17,10 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-//    [JPEngine startEngine];
-//    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"lhmq" ofType:@"js"];
-//    NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
-//    [JPEngine evaluateScript:script];
+    [JPEngine startEngine];
+    NSString *sourcePath = [[NSBundle mainBundle] pathForResource:@"lhmq" ofType:@"js"];
+    NSString *script = [NSString stringWithContentsOfFile:sourcePath encoding:NSUTF8StringEncoding error:nil];
+    [JPEngine evaluateScript:script];
     
     //[[HDownLoadImgInstance sharedInstance]downLoadImgWith:@"http://192.168.200.250/lhmq.js"];
     NSURL* url = [NSURL URLWithString:@"http://192.168.200.250/lhmq.js"];

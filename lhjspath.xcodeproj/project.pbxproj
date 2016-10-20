@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB34E06F1DB863EE00D38E64 /* JPCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E00F1DB863EE00D38E64 /* JPCFunction.m */; };
+		EB34E0701DB863EE00D38E64 /* JPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0111DB863EE00D38E64 /* JPMemory.m */; };
+		EB34E0711DB863EE00D38E64 /* JPStructPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0131DB863EE00D38E64 /* JPStructPointer.m */; };
+		EB34E0721DB863EE00D38E64 /* ffi_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0281DB863EE00D38E64 /* ffi_arm64.c */; };
+		EB34E0731DB863EE00D38E64 /* sysv_arm64.S in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0291DB863EE00D38E64 /* sysv_arm64.S */; };
+		EB34E0741DB863EE00D38E64 /* ffi_armv7.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E02B1DB863EE00D38E64 /* ffi_armv7.c */; };
+		EB34E0751DB863EE00D38E64 /* sysv_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = EB34E02C1DB863EE00D38E64 /* sysv_armv7.S */; };
+		EB34E0761DB863EE00D38E64 /* trampoline_armv7.S in Sources */ = {isa = PBXBuildFile; fileRef = EB34E02D1DB863EE00D38E64 /* trampoline_armv7.S */; };
+		EB34E0771DB863EE00D38E64 /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E02F1DB863EE00D38E64 /* prep_cif.c */; };
+		EB34E0781DB863EE00D38E64 /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0301DB863EE00D38E64 /* raw_api.c */; };
+		EB34E0791DB863EE00D38E64 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0311DB863EE00D38E64 /* types.c */; };
+		EB34E07A1DB863EE00D38E64 /* darwin64_x86_64.S in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0331DB863EE00D38E64 /* darwin64_x86_64.S */; };
+		EB34E07B1DB863EE00D38E64 /* darwin_i386.S in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0341DB863EE00D38E64 /* darwin_i386.S */; };
+		EB34E07C1DB863EE00D38E64 /* ffi64_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0351DB863EE00D38E64 /* ffi64_x86_64.c */; };
+		EB34E07D1DB863EE00D38E64 /* ffi_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0361DB863EE00D38E64 /* ffi_i386.c */; };
+		EB34E07E1DB863EE00D38E64 /* win32_i386.S in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0371DB863EE00D38E64 /* win32_i386.S */; };
+		EB34E07F1DB863EE00D38E64 /* JPCGBitmapContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E03B1DB863EE00D38E64 /* JPCGBitmapContext.m */; };
+		EB34E0801DB863EE00D38E64 /* JPCGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E03D1DB863EE00D38E64 /* JPCGColor.m */; };
+		EB34E0811DB863EE00D38E64 /* JPCGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E03F1DB863EE00D38E64 /* JPCGContext.m */; };
+		EB34E0821DB863EE00D38E64 /* JPCGGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0411DB863EE00D38E64 /* JPCGGeometry.m */; };
+		EB34E0831DB863EE00D38E64 /* JPCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0431DB863EE00D38E64 /* JPCGImage.m */; };
+		EB34E0841DB863EE00D38E64 /* JPCGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0451DB863EE00D38E64 /* JPCGPath.m */; };
+		EB34E0851DB863EE00D38E64 /* JPCGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0471DB863EE00D38E64 /* JPCGTransform.m */; };
+		EB34E0861DB863EE00D38E64 /* JPCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0491DB863EE00D38E64 /* JPCoreGraphics.m */; };
+		EB34E0871DB863EE00D38E64 /* JPUIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E04C1DB863EE00D38E64 /* JPUIGeometry.m */; };
+		EB34E0881DB863EE00D38E64 /* JPUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E04E1DB863EE00D38E64 /* JPUIGraphics.m */; };
+		EB34E0891DB863EE00D38E64 /* JPUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0501DB863EE00D38E64 /* JPUIImage.m */; };
+		EB34E08A1DB863EE00D38E64 /* JPUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0521DB863EE00D38E64 /* JPUIKit.m */; };
+		EB34E08B1DB863EE00D38E64 /* JPCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0541DB863EE00D38E64 /* JPCleaner.m */; };
+		EB34E08C1DB863EE00D38E64 /* JPDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0561DB863EE00D38E64 /* JPDispatch.m */; };
+		EB34E08D1DB863EE00D38E64 /* JPLocker.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0581DB863EE00D38E64 /* JPLocker.m */; };
+		EB34E08E1DB863EE00D38E64 /* JPNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E05A1DB863EE00D38E64 /* JPNumber.m */; };
+		EB34E08F1DB863EE00D38E64 /* JPPlayground.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E05D1DB863EE00D38E64 /* JPPlayground.m */; };
+		EB34E0901DB863EE00D38E64 /* JPKeyCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0601DB863EE00D38E64 /* JPKeyCommands.m */; };
+		EB34E0911DB863EE00D38E64 /* SGDirWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0621DB863EE00D38E64 /* SGDirWatchdog.m */; };
+		EB34E0921DB863EE00D38E64 /* JPDevErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0651DB863EE00D38E64 /* JPDevErrorView.m */; };
+		EB34E0931DB863EE00D38E64 /* JPDevMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0671DB863EE00D38E64 /* JPDevMenu.m */; };
+		EB34E0941DB863EE00D38E64 /* JPDevTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E0691DB863EE00D38E64 /* JPDevTipView.m */; };
+		EB34E0951DB863EE00D38E64 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EB34E06A1DB863EE00D38E64 /* README.md */; };
+		EB34E0961DB863EE00D38E64 /* JPProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E06C1DB863EE00D38E64 /* JPProtocol.m */; };
+		EB34E0971DB863EE00D38E64 /* JPSpecialInit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34E06E1DB863EE00D38E64 /* JPSpecialInit.m */; };
 		EB7C89BF1DB757CB00500DAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7C89BE1DB757CB00500DAC /* main.m */; };
 		EB7C89C21DB757CB00500DAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7C89C11DB757CB00500DAC /* AppDelegate.m */; };
 		EB7C89C51DB757CB00500DAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7C89C41DB757CB00500DAC /* ViewController.m */; };
@@ -20,6 +61,90 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB34E00E1DB863EE00D38E64 /* JPCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCFunction.h; sourceTree = "<group>"; };
+		EB34E00F1DB863EE00D38E64 /* JPCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCFunction.m; sourceTree = "<group>"; };
+		EB34E0101DB863EE00D38E64 /* JPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPMemory.h; sourceTree = "<group>"; };
+		EB34E0111DB863EE00D38E64 /* JPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPMemory.m; sourceTree = "<group>"; };
+		EB34E0121DB863EE00D38E64 /* JPStructPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPStructPointer.h; sourceTree = "<group>"; };
+		EB34E0131DB863EE00D38E64 /* JPStructPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPStructPointer.m; sourceTree = "<group>"; };
+		EB34E0161DB863EE00D38E64 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		EB34E0171DB863EE00D38E64 /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		EB34E0181DB863EE00D38E64 /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
+		EB34E0191DB863EE00D38E64 /* ffi_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
+		EB34E01A1DB863EE00D38E64 /* ffi_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		EB34E01B1DB863EE00D38E64 /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		EB34E01C1DB863EE00D38E64 /* fficonfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig.h; sourceTree = "<group>"; };
+		EB34E01D1DB863EE00D38E64 /* fficonfig_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_arm64.h; sourceTree = "<group>"; };
+		EB34E01E1DB863EE00D38E64 /* fficonfig_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_armv7.h; sourceTree = "<group>"; };
+		EB34E01F1DB863EE00D38E64 /* fficonfig_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_i386.h; sourceTree = "<group>"; };
+		EB34E0201DB863EE00D38E64 /* fficonfig_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fficonfig_x86_64.h; sourceTree = "<group>"; };
+		EB34E0211DB863EE00D38E64 /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		EB34E0221DB863EE00D38E64 /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		EB34E0231DB863EE00D38E64 /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
+		EB34E0241DB863EE00D38E64 /* ffitarget_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		EB34E0251DB863EE00D38E64 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		EB34E0281DB863EE00D38E64 /* ffi_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_arm64.c; sourceTree = "<group>"; };
+		EB34E0291DB863EE00D38E64 /* sysv_arm64.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_arm64.S; sourceTree = "<group>"; };
+		EB34E02B1DB863EE00D38E64 /* ffi_armv7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_armv7.c; sourceTree = "<group>"; };
+		EB34E02C1DB863EE00D38E64 /* sysv_armv7.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = sysv_armv7.S; sourceTree = "<group>"; };
+		EB34E02D1DB863EE00D38E64 /* trampoline_armv7.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = trampoline_armv7.S; sourceTree = "<group>"; };
+		EB34E02F1DB863EE00D38E64 /* prep_cif.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prep_cif.c; sourceTree = "<group>"; };
+		EB34E0301DB863EE00D38E64 /* raw_api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raw_api.c; sourceTree = "<group>"; };
+		EB34E0311DB863EE00D38E64 /* types.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = types.c; sourceTree = "<group>"; };
+		EB34E0331DB863EE00D38E64 /* darwin64_x86_64.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = darwin64_x86_64.S; sourceTree = "<group>"; };
+		EB34E0341DB863EE00D38E64 /* darwin_i386.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = darwin_i386.S; sourceTree = "<group>"; };
+		EB34E0351DB863EE00D38E64 /* ffi64_x86_64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi64_x86_64.c; sourceTree = "<group>"; };
+		EB34E0361DB863EE00D38E64 /* ffi_i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffi_i386.c; sourceTree = "<group>"; };
+		EB34E0371DB863EE00D38E64 /* win32_i386.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = win32_i386.S; sourceTree = "<group>"; };
+		EB34E03A1DB863EE00D38E64 /* JPCGBitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGBitmapContext.h; sourceTree = "<group>"; };
+		EB34E03B1DB863EE00D38E64 /* JPCGBitmapContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGBitmapContext.m; sourceTree = "<group>"; };
+		EB34E03C1DB863EE00D38E64 /* JPCGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGColor.h; sourceTree = "<group>"; };
+		EB34E03D1DB863EE00D38E64 /* JPCGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGColor.m; sourceTree = "<group>"; };
+		EB34E03E1DB863EE00D38E64 /* JPCGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGContext.h; sourceTree = "<group>"; };
+		EB34E03F1DB863EE00D38E64 /* JPCGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGContext.m; sourceTree = "<group>"; };
+		EB34E0401DB863EE00D38E64 /* JPCGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGGeometry.h; sourceTree = "<group>"; };
+		EB34E0411DB863EE00D38E64 /* JPCGGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGGeometry.m; sourceTree = "<group>"; };
+		EB34E0421DB863EE00D38E64 /* JPCGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGImage.h; sourceTree = "<group>"; };
+		EB34E0431DB863EE00D38E64 /* JPCGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGImage.m; sourceTree = "<group>"; };
+		EB34E0441DB863EE00D38E64 /* JPCGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGPath.h; sourceTree = "<group>"; };
+		EB34E0451DB863EE00D38E64 /* JPCGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGPath.m; sourceTree = "<group>"; };
+		EB34E0461DB863EE00D38E64 /* JPCGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCGTransform.h; sourceTree = "<group>"; };
+		EB34E0471DB863EE00D38E64 /* JPCGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCGTransform.m; sourceTree = "<group>"; };
+		EB34E0481DB863EE00D38E64 /* JPCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCoreGraphics.h; sourceTree = "<group>"; };
+		EB34E0491DB863EE00D38E64 /* JPCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCoreGraphics.m; sourceTree = "<group>"; };
+		EB34E04B1DB863EE00D38E64 /* JPUIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGeometry.h; sourceTree = "<group>"; };
+		EB34E04C1DB863EE00D38E64 /* JPUIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGeometry.m; sourceTree = "<group>"; };
+		EB34E04D1DB863EE00D38E64 /* JPUIGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIGraphics.h; sourceTree = "<group>"; };
+		EB34E04E1DB863EE00D38E64 /* JPUIGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIGraphics.m; sourceTree = "<group>"; };
+		EB34E04F1DB863EE00D38E64 /* JPUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIImage.h; sourceTree = "<group>"; };
+		EB34E0501DB863EE00D38E64 /* JPUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIImage.m; sourceTree = "<group>"; };
+		EB34E0511DB863EE00D38E64 /* JPUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUIKit.h; sourceTree = "<group>"; };
+		EB34E0521DB863EE00D38E64 /* JPUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPUIKit.m; sourceTree = "<group>"; };
+		EB34E0531DB863EE00D38E64 /* JPCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCleaner.h; sourceTree = "<group>"; };
+		EB34E0541DB863EE00D38E64 /* JPCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCleaner.m; sourceTree = "<group>"; };
+		EB34E0551DB863EE00D38E64 /* JPDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDispatch.h; sourceTree = "<group>"; };
+		EB34E0561DB863EE00D38E64 /* JPDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDispatch.m; sourceTree = "<group>"; };
+		EB34E0571DB863EE00D38E64 /* JPLocker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPLocker.h; sourceTree = "<group>"; };
+		EB34E0581DB863EE00D38E64 /* JPLocker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPLocker.m; sourceTree = "<group>"; };
+		EB34E0591DB863EE00D38E64 /* JPNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNumber.h; sourceTree = "<group>"; };
+		EB34E05A1DB863EE00D38E64 /* JPNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNumber.m; sourceTree = "<group>"; };
+		EB34E05C1DB863EE00D38E64 /* JPPlayground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPPlayground.h; sourceTree = "<group>"; };
+		EB34E05D1DB863EE00D38E64 /* JPPlayground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPPlayground.m; sourceTree = "<group>"; };
+		EB34E05F1DB863EE00D38E64 /* JPKeyCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPKeyCommands.h; sourceTree = "<group>"; };
+		EB34E0601DB863EE00D38E64 /* JPKeyCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPKeyCommands.m; sourceTree = "<group>"; };
+		EB34E0611DB863EE00D38E64 /* SGDirWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDirWatchdog.h; sourceTree = "<group>"; };
+		EB34E0621DB863EE00D38E64 /* SGDirWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDirWatchdog.m; sourceTree = "<group>"; };
+		EB34E0641DB863EE00D38E64 /* JPDevErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevErrorView.h; sourceTree = "<group>"; };
+		EB34E0651DB863EE00D38E64 /* JPDevErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevErrorView.m; sourceTree = "<group>"; };
+		EB34E0661DB863EE00D38E64 /* JPDevMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevMenu.h; sourceTree = "<group>"; };
+		EB34E0671DB863EE00D38E64 /* JPDevMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevMenu.m; sourceTree = "<group>"; };
+		EB34E0681DB863EE00D38E64 /* JPDevTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPDevTipView.h; sourceTree = "<group>"; };
+		EB34E0691DB863EE00D38E64 /* JPDevTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPDevTipView.m; sourceTree = "<group>"; };
+		EB34E06A1DB863EE00D38E64 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EB34E06B1DB863EE00D38E64 /* JPProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPProtocol.h; sourceTree = "<group>"; };
+		EB34E06C1DB863EE00D38E64 /* JPProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPProtocol.m; sourceTree = "<group>"; };
+		EB34E06D1DB863EE00D38E64 /* JPSpecialInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSpecialInit.h; sourceTree = "<group>"; };
+		EB34E06E1DB863EE00D38E64 /* JPSpecialInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSpecialInit.m; sourceTree = "<group>"; };
 		EB7C89BA1DB757CB00500DAC /* lhjspath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lhjspath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7C89BE1DB757CB00500DAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB7C89C01DB757CB00500DAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,6 +173,209 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB34E00C1DB863EE00D38E64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E00D1DB863EE00D38E64 /* JPCFunction */,
+				EB34E0381DB863EE00D38E64 /* JPCFunctionBinder */,
+				EB34E0531DB863EE00D38E64 /* JPCleaner.h */,
+				EB34E0541DB863EE00D38E64 /* JPCleaner.m */,
+				EB34E0551DB863EE00D38E64 /* JPDispatch.h */,
+				EB34E0561DB863EE00D38E64 /* JPDispatch.m */,
+				EB34E0571DB863EE00D38E64 /* JPLocker.h */,
+				EB34E0581DB863EE00D38E64 /* JPLocker.m */,
+				EB34E0591DB863EE00D38E64 /* JPNumber.h */,
+				EB34E05A1DB863EE00D38E64 /* JPNumber.m */,
+				EB34E05B1DB863EE00D38E64 /* JPPlaygroundTool */,
+				EB34E06B1DB863EE00D38E64 /* JPProtocol.h */,
+				EB34E06C1DB863EE00D38E64 /* JPProtocol.m */,
+				EB34E06D1DB863EE00D38E64 /* JPSpecialInit.h */,
+				EB34E06E1DB863EE00D38E64 /* JPSpecialInit.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EB34E00D1DB863EE00D38E64 /* JPCFunction */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E00E1DB863EE00D38E64 /* JPCFunction.h */,
+				EB34E00F1DB863EE00D38E64 /* JPCFunction.m */,
+				EB34E0101DB863EE00D38E64 /* JPMemory.h */,
+				EB34E0111DB863EE00D38E64 /* JPMemory.m */,
+				EB34E0121DB863EE00D38E64 /* JPStructPointer.h */,
+				EB34E0131DB863EE00D38E64 /* JPStructPointer.m */,
+				EB34E0141DB863EE00D38E64 /* libffi */,
+			);
+			path = JPCFunction;
+			sourceTree = "<group>";
+		};
+		EB34E0141DB863EE00D38E64 /* libffi */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0151DB863EE00D38E64 /* headers */,
+				EB34E0261DB863EE00D38E64 /* src */,
+			);
+			path = libffi;
+			sourceTree = "<group>";
+		};
+		EB34E0151DB863EE00D38E64 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0161DB863EE00D38E64 /* ffi.h */,
+				EB34E0171DB863EE00D38E64 /* ffi_arm64.h */,
+				EB34E0181DB863EE00D38E64 /* ffi_armv7.h */,
+				EB34E0191DB863EE00D38E64 /* ffi_common.h */,
+				EB34E01A1DB863EE00D38E64 /* ffi_i386.h */,
+				EB34E01B1DB863EE00D38E64 /* ffi_x86_64.h */,
+				EB34E01C1DB863EE00D38E64 /* fficonfig.h */,
+				EB34E01D1DB863EE00D38E64 /* fficonfig_arm64.h */,
+				EB34E01E1DB863EE00D38E64 /* fficonfig_armv7.h */,
+				EB34E01F1DB863EE00D38E64 /* fficonfig_i386.h */,
+				EB34E0201DB863EE00D38E64 /* fficonfig_x86_64.h */,
+				EB34E0211DB863EE00D38E64 /* ffitarget.h */,
+				EB34E0221DB863EE00D38E64 /* ffitarget_arm64.h */,
+				EB34E0231DB863EE00D38E64 /* ffitarget_armv7.h */,
+				EB34E0241DB863EE00D38E64 /* ffitarget_i386.h */,
+				EB34E0251DB863EE00D38E64 /* ffitarget_x86_64.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		EB34E0261DB863EE00D38E64 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0271DB863EE00D38E64 /* aarch64 */,
+				EB34E02A1DB863EE00D38E64 /* arm */,
+				EB34E02E1DB863EE00D38E64 /* common */,
+				EB34E0321DB863EE00D38E64 /* x86 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EB34E0271DB863EE00D38E64 /* aarch64 */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0281DB863EE00D38E64 /* ffi_arm64.c */,
+				EB34E0291DB863EE00D38E64 /* sysv_arm64.S */,
+			);
+			path = aarch64;
+			sourceTree = "<group>";
+		};
+		EB34E02A1DB863EE00D38E64 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E02B1DB863EE00D38E64 /* ffi_armv7.c */,
+				EB34E02C1DB863EE00D38E64 /* sysv_armv7.S */,
+				EB34E02D1DB863EE00D38E64 /* trampoline_armv7.S */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		EB34E02E1DB863EE00D38E64 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E02F1DB863EE00D38E64 /* prep_cif.c */,
+				EB34E0301DB863EE00D38E64 /* raw_api.c */,
+				EB34E0311DB863EE00D38E64 /* types.c */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		EB34E0321DB863EE00D38E64 /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0331DB863EE00D38E64 /* darwin64_x86_64.S */,
+				EB34E0341DB863EE00D38E64 /* darwin_i386.S */,
+				EB34E0351DB863EE00D38E64 /* ffi64_x86_64.c */,
+				EB34E0361DB863EE00D38E64 /* ffi_i386.c */,
+				EB34E0371DB863EE00D38E64 /* win32_i386.S */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		EB34E0381DB863EE00D38E64 /* JPCFunctionBinder */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0391DB863EE00D38E64 /* CoreGraphics */,
+				EB34E04A1DB863EE00D38E64 /* UIKit */,
+			);
+			path = JPCFunctionBinder;
+			sourceTree = "<group>";
+		};
+		EB34E0391DB863EE00D38E64 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E03A1DB863EE00D38E64 /* JPCGBitmapContext.h */,
+				EB34E03B1DB863EE00D38E64 /* JPCGBitmapContext.m */,
+				EB34E03C1DB863EE00D38E64 /* JPCGColor.h */,
+				EB34E03D1DB863EE00D38E64 /* JPCGColor.m */,
+				EB34E03E1DB863EE00D38E64 /* JPCGContext.h */,
+				EB34E03F1DB863EE00D38E64 /* JPCGContext.m */,
+				EB34E0401DB863EE00D38E64 /* JPCGGeometry.h */,
+				EB34E0411DB863EE00D38E64 /* JPCGGeometry.m */,
+				EB34E0421DB863EE00D38E64 /* JPCGImage.h */,
+				EB34E0431DB863EE00D38E64 /* JPCGImage.m */,
+				EB34E0441DB863EE00D38E64 /* JPCGPath.h */,
+				EB34E0451DB863EE00D38E64 /* JPCGPath.m */,
+				EB34E0461DB863EE00D38E64 /* JPCGTransform.h */,
+				EB34E0471DB863EE00D38E64 /* JPCGTransform.m */,
+				EB34E0481DB863EE00D38E64 /* JPCoreGraphics.h */,
+				EB34E0491DB863EE00D38E64 /* JPCoreGraphics.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		EB34E04A1DB863EE00D38E64 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E04B1DB863EE00D38E64 /* JPUIGeometry.h */,
+				EB34E04C1DB863EE00D38E64 /* JPUIGeometry.m */,
+				EB34E04D1DB863EE00D38E64 /* JPUIGraphics.h */,
+				EB34E04E1DB863EE00D38E64 /* JPUIGraphics.m */,
+				EB34E04F1DB863EE00D38E64 /* JPUIImage.h */,
+				EB34E0501DB863EE00D38E64 /* JPUIImage.m */,
+				EB34E0511DB863EE00D38E64 /* JPUIKit.h */,
+				EB34E0521DB863EE00D38E64 /* JPUIKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EB34E05B1DB863EE00D38E64 /* JPPlaygroundTool */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E05C1DB863EE00D38E64 /* JPPlayground.h */,
+				EB34E05D1DB863EE00D38E64 /* JPPlayground.m */,
+				EB34E05E1DB863EE00D38E64 /* JPPlaygroundModule */,
+				EB34E0631DB863EE00D38E64 /* JPPlaygroundView */,
+				EB34E06A1DB863EE00D38E64 /* README.md */,
+			);
+			path = JPPlaygroundTool;
+			sourceTree = "<group>";
+		};
+		EB34E05E1DB863EE00D38E64 /* JPPlaygroundModule */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E05F1DB863EE00D38E64 /* JPKeyCommands.h */,
+				EB34E0601DB863EE00D38E64 /* JPKeyCommands.m */,
+				EB34E0611DB863EE00D38E64 /* SGDirWatchdog.h */,
+				EB34E0621DB863EE00D38E64 /* SGDirWatchdog.m */,
+			);
+			path = JPPlaygroundModule;
+			sourceTree = "<group>";
+		};
+		EB34E0631DB863EE00D38E64 /* JPPlaygroundView */ = {
+			isa = PBXGroup;
+			children = (
+				EB34E0641DB863EE00D38E64 /* JPDevErrorView.h */,
+				EB34E0651DB863EE00D38E64 /* JPDevErrorView.m */,
+				EB34E0661DB863EE00D38E64 /* JPDevMenu.h */,
+				EB34E0671DB863EE00D38E64 /* JPDevMenu.m */,
+				EB34E0681DB863EE00D38E64 /* JPDevTipView.h */,
+				EB34E0691DB863EE00D38E64 /* JPDevTipView.m */,
+			);
+			path = JPPlaygroundView;
+			sourceTree = "<group>";
+		};
 		EB7C89B11DB757CB00500DAC = {
 			isa = PBXGroup;
 			children = (
@@ -92,11 +420,12 @@
 		EB7C89D41DB757F200500DAC /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				EB34E00C1DB863EE00D38E64 /* Extensions */,
+				EB7C89D51DB757F200500DAC /* JPEngine.h */,
 				EB7C89DA1DB7587D00500DAC /* JPEngine.m */,
 				EB7C89DB1DB7587D00500DAC /* JSPatch.js */,
-				EB7C89D51DB757F200500DAC /* JPEngine.h */,
-				EB7C89D71DB757F200500DAC /* mq.js */,
 				EB7C89DE1DB75A9C00500DAC /* lhmq.js */,
+				EB7C89D71DB757F200500DAC /* mq.js */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -176,10 +505,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB34E08D1DB863EE00D38E64 /* JPLocker.m in Sources */,
+				EB34E07C1DB863EE00D38E64 /* ffi64_x86_64.c in Sources */,
+				EB34E0871DB863EE00D38E64 /* JPUIGeometry.m in Sources */,
+				EB34E0881DB863EE00D38E64 /* JPUIGraphics.m in Sources */,
+				EB34E0941DB863EE00D38E64 /* JPDevTipView.m in Sources */,
+				EB34E0821DB863EE00D38E64 /* JPCGGeometry.m in Sources */,
+				EB34E08A1DB863EE00D38E64 /* JPUIKit.m in Sources */,
+				EB34E0801DB863EE00D38E64 /* JPCGColor.m in Sources */,
+				EB34E07E1DB863EE00D38E64 /* win32_i386.S in Sources */,
+				EB34E08F1DB863EE00D38E64 /* JPPlayground.m in Sources */,
+				EB34E08E1DB863EE00D38E64 /* JPNumber.m in Sources */,
+				EB34E07B1DB863EE00D38E64 /* darwin_i386.S in Sources */,
+				EB34E07F1DB863EE00D38E64 /* JPCGBitmapContext.m in Sources */,
+				EB34E0771DB863EE00D38E64 /* prep_cif.c in Sources */,
 				EB7C89C51DB757CB00500DAC /* ViewController.m in Sources */,
 				EB7C89DC1DB7587D00500DAC /* JPEngine.m in Sources */,
+				EB34E0931DB863EE00D38E64 /* JPDevMenu.m in Sources */,
+				EB34E07D1DB863EE00D38E64 /* ffi_i386.c in Sources */,
+				EB34E0841DB863EE00D38E64 /* JPCGPath.m in Sources */,
+				EB34E0921DB863EE00D38E64 /* JPDevErrorView.m in Sources */,
+				EB34E0811DB863EE00D38E64 /* JPCGContext.m in Sources */,
+				EB34E0791DB863EE00D38E64 /* types.c in Sources */,
+				EB34E0781DB863EE00D38E64 /* raw_api.c in Sources */,
+				EB34E0951DB863EE00D38E64 /* README.md in Sources */,
+				EB34E0761DB863EE00D38E64 /* trampoline_armv7.S in Sources */,
+				EB34E0911DB863EE00D38E64 /* SGDirWatchdog.m in Sources */,
+				EB34E0721DB863EE00D38E64 /* ffi_arm64.c in Sources */,
+				EB34E0711DB863EE00D38E64 /* JPStructPointer.m in Sources */,
 				EB7C89C21DB757CB00500DAC /* AppDelegate.m in Sources */,
+				EB34E0851DB863EE00D38E64 /* JPCGTransform.m in Sources */,
+				EB34E0831DB863EE00D38E64 /* JPCGImage.m in Sources */,
 				EB7C89BF1DB757CB00500DAC /* main.m in Sources */,
+				EB34E0901DB863EE00D38E64 /* JPKeyCommands.m in Sources */,
+				EB34E0971DB863EE00D38E64 /* JPSpecialInit.m in Sources */,
+				EB34E0701DB863EE00D38E64 /* JPMemory.m in Sources */,
+				EB34E0751DB863EE00D38E64 /* sysv_armv7.S in Sources */,
+				EB34E0961DB863EE00D38E64 /* JPProtocol.m in Sources */,
+				EB34E0891DB863EE00D38E64 /* JPUIImage.m in Sources */,
+				EB34E08C1DB863EE00D38E64 /* JPDispatch.m in Sources */,
+				EB34E06F1DB863EE00D38E64 /* JPCFunction.m in Sources */,
+				EB34E0731DB863EE00D38E64 /* sysv_arm64.S in Sources */,
+				EB34E0741DB863EE00D38E64 /* ffi_armv7.c in Sources */,
+				EB34E07A1DB863EE00D38E64 /* darwin64_x86_64.S in Sources */,
+				EB34E0861DB863EE00D38E64 /* JPCoreGraphics.m in Sources */,
+				EB34E08B1DB863EE00D38E64 /* JPCleaner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
